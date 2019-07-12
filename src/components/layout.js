@@ -1,6 +1,4 @@
 import React from "react"
-import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
 import { useStaticQuery, Link, graphql } from "gatsby"
 
 export default ({ children }) => {
@@ -16,32 +14,9 @@ export default ({ children }) => {
     `
   )
   return (
-    <div
-      css={css`
-        margin: 0 auto;
-        max-width: 700px;
-        padding: ${rhythm(2)};
-        padding-top: ${rhythm(1.5)};
-      `}
-    >
+    <div id={'content'}>
       <Link to={`/`}>
-        <h3
-          css={css`
-            margin-bottom: ${rhythm(2)};
-            display: inline-block;
-            font-style: normal;
-          `}
-        >
-          {data.site.siteMetadata.title}
-        </h3>
-      </Link>
-      <Link
-        to={`/about/`}
-        css={css`
-          float: right;
-        `}
-      >
-        About
+        <h2 id={'title'}>{data.site.siteMetadata.title}</h2>
       </Link>
       {children}
     </div>

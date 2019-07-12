@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "sa-task-dash",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A dashborad for the SA task list",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -17,7 +17,6 @@
     "gatsby": "^2.13.3",
     "gatsby-plugin-emotion": "^4.1.0",
     "gatsby-plugin-typography": "^2.3.0",
-    "gatsby-source-filesystem": "^2.1.2",
     "gatsby-transformer-remark": "^2.6.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -30,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/esdc-devx/saTask-Dash"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/esdc-devx/saTask-Dash/issues"
   }
 }
